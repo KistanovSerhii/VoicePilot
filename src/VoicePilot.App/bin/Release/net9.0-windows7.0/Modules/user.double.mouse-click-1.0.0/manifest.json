@@ -1,0 +1,27 @@
+﻿{
+  "id": "user.double.mouse-click",
+  "name": "Мышь нажатие 2",
+  "version": "1.0.0",
+  "culture": "ru-RU",
+  "author": "s.kistanov",
+  "description": "Команда обновлена 08.11.2025",
+  "commands": [
+    {
+      "id": "double_click",
+      "name": "Мышь нажатие 2",
+      "description": "Команда обновлена 08.11.2025",
+      "phrases": [
+        "мышь открыть"
+      ],
+      "actions": [
+        {
+          "type": "mouseclick",
+          "parameters": {
+            "button": "left",
+            "double": true
+          }
+        }
+      ]
+    }
+  ]
+}

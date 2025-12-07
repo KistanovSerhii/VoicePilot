@@ -1,0 +1,33 @@
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\VoicePilot.App.pdb
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\CommandAction.cs
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\CommandMatch.cs
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\CommandModule.cs
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\CommandRouter.cs
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\ModuleManager.cs
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\ModuleManifestParser.cs
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\ModuleResource.cs
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\VoiceCommand.cs
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\notepad.launcher-1.0.0\manifest.json
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\system.basics-1.0.0\manifest.json
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\system.stop-all-processes-1.0.0\manifest.json
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\user.double.mouse-click-1.0.0\manifest.json
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\user.space-key-1.0.0\manifest.json
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\user.voice-dictation-1.0.0\manifest.json
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\user.проводник музыка\manifest.json
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\user.проводник фильмы\manifest.json
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\vosk-model-small-ru-0.22\conf\mfcc.conf
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\vosk-model-small-ru-0.22\conf\model.conf
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\vosk-model-small-ru-0.22\graph\disambig_tid.int
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\vosk-model-small-ru-0.22\graph\phones\word_boundary.int
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\vosk-model-small-ru-0.22\ivector\final.dubm
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\vosk-model-small-ru-0.22\ivector\final.mat
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\vosk-model-small-ru-0.22\ivector\global_cmvn.stats
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\vosk-model-small-ru-0.22\ivector\online_cmvn.conf
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\vosk-model-small-ru-0.22\ivector\splice.conf
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\vosk-model-small-ru-0.22\README
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\youtube.launcher-1.0.0\manifest.json
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Modules\youtube.webview-1.0.0\manifest.json
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Microsoft.Web.WebView2.Core.xml
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Serhii\Desktop\VH\VoiceHelperWin\VoicePilot\installer\VoicePilot\VoicePilot.App.exe

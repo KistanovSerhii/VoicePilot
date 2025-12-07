@@ -1,0 +1,28 @@
+﻿{
+  "id": "explorer.launch",
+  "name": "Запуск проводника",
+  "version": "1.0.0",
+  "culture": "ru-RU",
+  "author": "Пример",
+  "description": "Команда открывает проводник Windows (экземпляр explorer.exe).",
+  "commands": [
+    {
+      "id": "open_explorer",
+      "name": "Открыть проводник",
+      "description": "Запускает проводник Windows",
+      "phrases": [
+        "открой проводник",
+        "запусти проводник",
+        "проводник"
+      ],
+      "actions": [
+        {
+          "type": "runProcess",
+          "parameters": {
+            "path": "explorer.exe"
+          }
+        }
+      ]
+    }
+  ]
+}

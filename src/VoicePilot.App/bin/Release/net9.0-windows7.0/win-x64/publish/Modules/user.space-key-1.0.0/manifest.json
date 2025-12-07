@@ -1,0 +1,29 @@
+﻿{
+  "id": "user.space-key",
+  "name": "Пробел",
+  "version": "1.0.0",
+  "culture": "ru-RU",
+  "author": "s.kistanov",
+  "description": "Эмулирует нажатие клавиши ПРОБЕЛ.",
+  "commands": [
+    {
+      "id": "press_space",
+      "name": "Пробел",
+      "description": "Эмулирует нажатие пробела",
+      "phrases": [
+        "нажми пробел",
+        "пробел"
+      ],
+      "actions": [
+        {
+          "type": "sendKeys",
+          "parameters": {
+            "keys": [
+              "SPACE"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

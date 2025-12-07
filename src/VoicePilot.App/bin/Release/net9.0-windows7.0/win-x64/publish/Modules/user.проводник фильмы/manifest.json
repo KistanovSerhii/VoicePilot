@@ -1,0 +1,64 @@
+﻿{
+  "id": "user.проводник фильмы",
+  "name": "Проводник фильмы закрыть",
+  "version": "1.0.0",
+  "culture": "ru-RU",
+  "author": "s.kistanov",
+  "description": "Команда обновлена 07.12.2025",
+  "commands": [
+    {
+      "id": "explorer_films",
+      "name": "Проводник фильмы",
+      "description": "Команда обновлена 08.11.2025",
+      "phrases": [
+        "открыть фильмы",
+        "показать фильмы",
+        "смотреть фильмы"
+      ],
+      "actions": [
+        {
+          "type": "openresource",
+          "parameters": {
+            "key": "фильмы"
+          }
+        }
+      ]
+    },
+    {
+      "id": "close_explorer_films_current",
+      "name": "Проводник фильмы закрыть",
+      "description": "Команда обновлена 09.11.2025",
+      "phrases": [
+        "закрой фильмы",
+        "хватит фильмы"
+      ],
+      "actions": [
+        {
+          "type": "stopProcess",
+          "parameters": {
+            "commandId": "explorer_films",
+            "moduleId": "user.проводник фильмы"
+          }
+        }
+      ]
+    },
+    {
+      "id": "close_explorer_films_all",
+      "name": "Проводник фильмы закрыть все",
+      "description": "Команда обновлена 09.11.2025",
+      "phrases": [
+        "закрой все фильмы",
+        "завершить все фильмы"
+      ],
+      "actions": [
+        {
+          "type": "stopAllProcesses",
+          "parameters": {
+            "commandId": "explorer_films",
+            "moduleId": "user.проводник фильмы"
+          }
+        }
+      ]
+    }
+  ]
+}

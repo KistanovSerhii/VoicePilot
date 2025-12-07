@@ -1,0 +1,164 @@
+<Window x:Class="VoicePilot.App.Windows.CommandBuilderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Редактирование команды"
+        Height="Auto"
+        Width="560"
+        WindowStartupLocation="CenterOwner"
+        SizeToContent="Height"
+        Icon="pack://application:,,,/wavesound.png">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3"
+                    Orientation="Horizontal"
+                    Margin="0,0,0,16">
+            <Button Content="Сохранить"
+                    Width="150"
+                    Height="36"
+                    Click="SaveButton_Click" />
+            <Button x:Name="DeleteButton"
+                    Content="Удалить"
+                    Width="150"
+                    Height="36"
+                    Margin="12,0,0,0"
+                    Visibility="Collapsed"
+                    Click="DeleteButton_Click" />
+        </StackPanel>
+
+        <TextBlock Grid.Row="1"
+                   Grid.Column="0"
+                   Text="Название команды:"
+                   Margin="0,0,12,8"
+                   VerticalAlignment="Center" />
+        <TextBox x:Name="CommandNameTextBox"
+                 Grid.Row="1"
+                 Grid.Column="1"
+                 Grid.ColumnSpan="2"
+                 Margin="0,0,0,8"
+                 TextChanged="CommandNameTextBox_OnTextChanged" />
+
+        <TextBlock Grid.Row="2"
+                   Grid.Column="0"
+                   Text="Ключевая фраза:"
+                   Margin="0,0,12,8"
+                   VerticalAlignment="Center" />
+        <TextBox x:Name="ActivationPhraseTextBox"
+                 Grid.Row="2"
+                 Grid.Column="1"
+                 Grid.ColumnSpan="2"
+                 Margin="0,0,0,8"
+                 TextChanged="ActivationPhraseTextBox_OnTextChanged" />
+
+        <TextBlock Grid.Row="3"
+                   Grid.Column="0"
+                   Text="Что выполнить:"
+                   Margin="0,0,12,8"
+                   VerticalAlignment="Center" />
+        <TextBox x:Name="ExecutablePathTextBox"
+                 Grid.Row="3"
+                 Grid.Column="1"
+                 Margin="0,0,8,8" />
+        <Button x:Name="BrowseExecutableButton"
+                Grid.Row="3"
+                Grid.Column="2"
+                Content="Обзор"
+                Width="90"
+                Click="BrowseExecutable_Click" />
+
+        <CheckBox x:Name="UseResourceCheckBox"
+                  Grid.Row="4"
+                  Grid.Column="1"
+                  Grid.ColumnSpan="2"
+                  Content="Использует ресурс (openResource)"
+                  Margin="0,0,0,8"
+                  Checked="UseResourceCheckBox_OnChecked"
+                  Unchecked="UseResourceCheckBox_OnUnchecked" />
+
+        <TextBlock x:Name="ArgumentsLabel"
+                   Grid.Row="5"
+                   Grid.Column="0"
+                   Text="Аргументы:"
+                   Margin="0,0,12,8"
+                   VerticalAlignment="Top" />
+        <TextBox x:Name="ArgumentsTextBox"
+                 Grid.Row="5"
+                 Grid.Column="1"
+                 Grid.ColumnSpan="2"
+                 Margin="0,0,0,8"
+                 AcceptsReturn="True"
+                 TextWrapping="Wrap"
+                 VerticalScrollBarVisibility="Auto"
+                 MinHeight="60" />
+
+        <TextBlock Grid.Row="6"
+                   Grid.Column="0"
+                   Text="Рабочая папка:"
+                   Margin="0,0,12,8"
+                   VerticalAlignment="Center" />
+        <TextBox x:Name="WorkingDirectoryTextBox"
+                 Grid.Row="6"
+                 Grid.Column="1"
+                 Grid.ColumnSpan="2"
+                 Margin="0,0,0,8" />
+
+        <TextBlock x:Name="CommandHintTextBlock"
+                   Grid.Row="7"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Margin="0,0,0,12"
+                   Foreground="Gray"
+                   TextWrapping="Wrap" />
+
+        <Border Grid.Row="8"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Background="#F8FAFC"
+                BorderBrush="#E2E8F0"
+                BorderThickness="1"
+                CornerRadius="6"
+                Padding="12"
+                Margin="0,0,0,12">
+            <TextBlock Text="Подсказка: для встроенных действий укажите параметры в формате JSON или в виде строк «ключ=значение». Например: dx=40, intervalMs=10. Для ресурсов укажите: key=название_ресурса."
+                       TextWrapping="Wrap"
+                       Foreground="#475569" />
+        </Border>
+
+        <StackPanel Grid.Row="9"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="0,12,0,12">
+            <Button x:Name="LoadButton"
+                    Content="Загрузить"
+                    Width="80"
+                    Height="26"
+                    Margin="0,0,12,0"
+                    Click="LoadButton_Click" />
+            <Button x:Name="ExportButton"
+                    Content="Выгрузить"
+                    Width="80"
+                    Height="26"
+                    Click="ExportButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

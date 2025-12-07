@@ -1,0 +1,24 @@
+﻿{
+  "id": "system.stop-all-processes",
+  "name": "Завершить все процессы",
+  "version": "1.0.0",
+  "culture": "ru-RU",
+  "author": "s.kistanov",
+  "description": "Команда обновлена 09.11.2025",
+  "commands": [
+    {
+      "id": "stop-all",
+      "name": "Завершить все процессы",
+      "description": "Команда обновлена 09.11.2025",
+      "phrases": [
+        "закрой все программы"
+      ],
+      "actions": [
+        {
+          "type": "stopallprocesses",
+          "parameters": {}
+        }
+      ]
+    }
+  ]
+}

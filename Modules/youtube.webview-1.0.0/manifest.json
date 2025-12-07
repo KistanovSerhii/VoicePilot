@@ -1,0 +1,48 @@
+﻿{
+  "id": "youtube.webview",
+  "name": "YouTube отдельное окно WebView",
+  "version": "1.0.0",
+  "author": "s.kistanov",
+  "culture": "ru-RU",
+  "description": "Открытие YouTube в WebView окне",
+  "commands": [
+    {
+      "id": "open_youtube_webview",
+      "name": "YouTube WebView",
+      "phrases": [
+        "открой ютуб в окне",
+        "включи ютуб в окне"
+      ],
+      "actions": [
+        {
+          "type": "openwebview",
+          "parameters": {
+            "url": "https://www.youtube.com",
+            "title": "YouTube WebView",
+            "top": true,
+            "w": 840,
+            "h": 480
+          }
+        }
+      ],
+      "description": "Открывает YouTube в окне WebView размером 840x480 поверх всех окон"
+    },
+    {
+      "id": "close_youtube_webview",
+      "name": "YouTube WebView Close",
+      "phrases": [
+        "закрой ютуб в окне",
+        "выключи ютуб в окне"
+      ],
+      "actions": [
+        {
+          "type": "stopprocess",
+          "parameters": {
+            "commandId": "open_youtube_webview"
+          }
+        }
+      ],
+      "description": "Закрывает последнее окно YouTube WebView"
+    }
+  ]
+}

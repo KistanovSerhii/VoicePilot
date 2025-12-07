@@ -1,0 +1,29 @@
+﻿{
+  "id": "user.voice-dictation",
+  "name": "Диктовка",
+  "version": "1.0.0",
+  "culture": "ru-RU",
+  "author": "s.kistanov",
+  "description": "Команда обновлена 08.11.2025",
+  "commands": [
+    {
+      "id": "voice_dictation",
+      "name": "Диктовка",
+      "description": "Команда обновлена 08.11.2025",
+      "phrases": [
+        "диктовка",
+        "ввод текста",
+        "режим диктовки"
+      ],
+      "actions": [
+        {
+          "type": "dictation",
+          "parameters": {
+            "silenceTimeoutSeconds": 5,
+            "maxCharacters": 0
+          }
+        }
+      ]
+    }
+  ]
+}

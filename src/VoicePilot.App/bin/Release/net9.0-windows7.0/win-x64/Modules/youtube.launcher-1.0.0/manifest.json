@@ -1,0 +1,26 @@
+﻿{
+  "id": "youtube.launcher",
+  "name": "YouTube в браузере",
+  "version": "1.0.0",
+  "author": "s.kistanov",
+  "culture": "ru-RU",
+  "description": "Команда обновлена 09.11.2025",
+  "commands": [
+    {
+      "id": "open_youtube",
+      "name": "www YouTube",
+      "phrases": [
+        "ютуб в браузере"
+      ],
+      "actions": [
+        {
+          "type": "openurl",
+          "parameters": {
+            "url": "https://www.youtube.com"
+          }
+        }
+      ],
+      "description": "Команда обновлена 09.11.2025"
+    }
+  ]
+}

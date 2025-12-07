@@ -1,0 +1,64 @@
+﻿{
+  "id": "user.explorer.music",
+  "name": "Проводник музыка",
+  "version": "1.0.0",
+  "culture": "ru-RU",
+  "author": "s.kistanov",
+  "description": "Команда обновлена 08.11.2025",
+  "commands": [
+    {
+      "id": "explorer_music",
+      "name": "Проводник музыка",
+      "description": "Команда обновлена 08.11.2025",
+      "phrases": [
+        "открыть музыку",
+        "показать музыку",
+        "слушать музыку"
+      ],
+      "actions": [
+        {
+          "type": "openresource",
+          "parameters": {
+            "key": "музыка"
+          }
+        }
+      ]
+    },
+    {
+      "id": "close_explorer_music_current",
+      "name": "Проводник музыка закрыть",
+      "description": "Команда обновлена 09.11.2025",
+      "phrases": [
+        "закрой музыку",
+        "хватит музыка"
+      ],
+      "actions": [
+        {
+          "type": "stopProcess",
+          "parameters": {
+            "commandId": "explorer_music",
+            "moduleId": "user.explorer.music"
+          }
+        }
+      ]
+    },
+    {
+      "id": "close_explorer_music_all",
+      "name": "Проводник музыка закрыть все",
+      "description": "Команда обновлена 09.11.2025",
+      "phrases": [
+        "закрой все музыка",
+        "завершить все музыка"
+      ],
+      "actions": [
+        {
+          "type": "stopAllProcesses",
+          "parameters": {
+            "commandId": "explorer_music",
+            "moduleId": "user.explorer.music"
+          }
+        }
+      ]
+    }
+  ]
+}

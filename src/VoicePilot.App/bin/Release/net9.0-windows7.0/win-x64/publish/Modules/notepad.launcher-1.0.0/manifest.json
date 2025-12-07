@@ -1,0 +1,48 @@
+﻿{
+  "id": "notepad.launcher",
+  "name": "Блокнот",
+  "version": "1.0.0",
+  "author": "s.kistanov",
+  "culture": "ru-RU",
+  "description": "Запуск и управление Блокнотом",
+  "commands": [
+    {
+      "id": "open_notepad",
+      "name": "Notepad",
+      "phrases": [
+        "открыть блокнот",
+        "запусти блокнот"
+      ],
+      "actions": [
+        {
+          "type": "runProcess",
+          "parameters": {
+            "path": "notepad.exe",
+            "arguments": null,
+            "workingDirectory": null
+          }
+        }
+      ],
+      "description": "Открывает Блокнот"
+    },
+    {
+      "id": "close_notepad",
+      "name": "Notepad Close",
+      "phrases": [
+        "закрой блокнот",
+        "закрыть блокнот",
+        "хватит блокнот"
+      ],
+      "actions": [
+        {
+          "type": "stopProcess",
+          "parameters": {
+            "commandId": "open_notepad",
+            "moduleId": "notepad.launcher"
+          }
+        }
+      ],
+      "description": "Закрывает Блокнот"
+    }
+  ]
+}

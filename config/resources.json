@@ -1,0 +1,16 @@
+{
+  "Resources": [
+    {
+      "Key": "фильмы",
+      "Path": "%USERPROFILE%\\Videos",
+      "Type": "Folder",
+      "Description": "Библиотека фильмов"
+    },
+    {
+      "Key": "музыка",
+      "Path": "%USERPROFILE%\\Music",
+      "Type": "Folder",
+      "Description": "Музыкальная коллекция"
+    }
+  ]
+}

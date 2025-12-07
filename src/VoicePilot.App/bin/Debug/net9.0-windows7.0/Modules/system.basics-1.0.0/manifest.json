@@ -1,0 +1,144 @@
+﻿{
+  "id": "system.basics",
+  "name": "Системные команд",
+  "version": "1.0.0",
+  "author": "(sys) s.kistanov",
+  "culture": "ru-RU",
+  "description": "Команда обновлена 09.11.2025",
+  "commands": [
+    {
+      "id": "mouse_move_up",
+      "name": "Мышь вверх",
+      "phrases": [
+        "мышь вверх",
+        "подними мышь"
+      ],
+      "actions": [
+        {
+          "type": "mouseMove",
+          "parameters": {
+            "dx": 0,
+            "dy": -10,
+            "continuous": true,
+            "intervalMs": 80
+          }
+        }
+      ],
+      "keepActive": true,
+      "description": "Команда обновлена 08.11.2025"
+    },
+    {
+      "id": "mouse_move_down",
+      "name": "Мышь вниз",
+      "phrases": [
+        "мышь вниз",
+        "опусти мышь"
+      ],
+      "actions": [
+        {
+          "type": "mouseMove",
+          "parameters": {
+            "dx": 0,
+            "dy": 10,
+            "continuous": true,
+            "intervalMs": 80
+          }
+        }
+      ],
+      "keepActive": true,
+      "description": "Команда обновлена 08.11.2025"
+    },
+    {
+      "id": "mouse_move_left",
+      "name": "Мышь влево",
+      "phrases": [
+        "мышь влево"
+      ],
+      "actions": [
+        {
+          "type": "mouseMove",
+          "parameters": {
+            "dx": -10,
+            "dy": 0,
+            "continuous": true,
+            "intervalMs": 80
+          }
+        }
+      ],
+      "keepActive": true,
+      "description": "Команда обновлена 08.11.2025"
+    },
+    {
+      "id": "mouse_move_right",
+      "name": "Мышь вправо",
+      "phrases": [
+        "мышь вправо"
+      ],
+      "actions": [
+        {
+          "type": "mouseMove",
+          "parameters": {
+            "dx": 10,
+            "dy": 0,
+            "continuous": true,
+            "intervalMs": 80
+          }
+        }
+      ],
+      "keepActive": true,
+      "description": "Команда обновлена 08.11.2025"
+    },
+    {
+      "id": "mouse_stop",
+      "name": "Мышь остановить",
+      "phrases": [
+        "стоп мышь",
+        "останови мышь"
+      ],
+      "actions": [
+        {
+          "type": "mouseStop",
+          "parameters": {}
+        }
+      ],
+      "description": "Команда обновлена 08.11.2025"
+    },
+    {
+      "id": "mouse_click",
+      "name": "Мышь нажатие",
+      "phrases": [
+        "нажми мышь"
+      ],
+      "actions": [
+        {
+          "type": "mouseClick",
+          "parameters": {
+            "button": "left"
+          }
+        }
+      ],
+      "description": "Команда обновлена 08.11.2025"
+    },
+    {
+      "id": "switch_window",
+      "name": "Переключить окно",
+      "description": "Выполняет сочетание ALT+TAB",
+      "phrases": [
+        "переключи окно",
+        "следующее окно",
+        "альт таб"
+      ],
+      "actions": [
+        {
+          "type": "sendKeys",
+          "parameters": {
+            "keys": [
+              "ALT",
+              "TAB"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
